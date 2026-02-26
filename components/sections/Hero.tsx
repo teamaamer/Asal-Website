@@ -16,12 +16,7 @@ export default function Hero() {
     <section className="min-h-screen flex items-center relative overflow-hidden pt-32 pb-24 bg-[#f5f5f5]">
       <div className="max-w-[1440px] mx-auto px-12 relative z-10 w-full">
         {/* ASAL Logo */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="mb-8"
-        >
+        <div className="mb-8">
           <Image
             src="/asal-logo.svg"
             alt="ASAL Technologies"
@@ -29,7 +24,7 @@ export default function Hero() {
             height={60}
             className="h-12 w-auto"
           />
-        </motion.div>
+        </div>
 
         {/* Title */}
         <motion.div
